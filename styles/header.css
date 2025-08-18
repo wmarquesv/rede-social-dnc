@@ -1,0 +1,10 @@
+header{
+
+    background-color: #02A28F;
+    h1{
+        font: 800 1.5rem/1.5 var(--ff-ss);
+        color: white;
+        text-align: center;
+        padding-block: 1rem;
+    }
+}

@@ -15,4 +15,19 @@
     --post-date: 300 0.75rem/1.5 var(ff-ss);
     --category-topic: 600 1rem/1.5 var(--ff-ss);
     
+    /* cores */
+    --primary-color: #02A28F;
+
+}
+
+body{
+    font: inherit;
+    color: inherit;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    img{
+        max-width: 100%;
+    }
 }
