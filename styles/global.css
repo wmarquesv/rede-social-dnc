@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* textos */
+    --ff-ss: 'Montserrat', sans-serif;
+    --title: 800 1.25rem/1.5 var(--ff-ss);
+    --text: 400 0.875rem/1.5 var(--ff-ss);
+    --credits: 300 0.875rem/1.5 var(--ff-ss);
+    --topic: 400 0.875rem/1.5 var(--ff-ss);
+    --title-popular: 800 .875rem/1.5 var(--ff-ss);
+    --post-date: 300 0.75rem/1.5 var(ff-ss);
+    --category-topic: 600 1rem/1.5 var(--ff-ss);
+    
+}
