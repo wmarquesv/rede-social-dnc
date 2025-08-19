@@ -16,23 +16,112 @@
     <header>
         <h1> The Dev News</h1>
     </header>
-    <main>
+    <main class="container">
         
         <section id="posts">
-            <div class="recent-posts"></div>
-            <div class="recent-posts"></div>
-            <div class="recent-posts"></div>
-            <div class="recent-posts"></div>
-            
+            <div id="introduction">
+                <img src="assets/img/banner article.jpg" alt="imagem de uma cidade cheia de prédios"/>
+                <div id="introduction-title">
+                    <h2>Como é ser um desenvolvedor</h2>
+                    <p>By <span class="author">Fabio Tetsuo</span></p>
+                </div>              
+            </div>
+
+            <div id="topic">
+                <p>Posts mais recentes</p>
+                <a href="#"> Ver todos</a>
+            </div>
+
+            <div id="recently-posted">
+                <div id="dev-mobile" class="cards">
+                    <img src="assets/img/dev mobile.jpg" alt="foto de uma celular">
+                    <h3>desenvolvimento</h3>
+                    <h2>Desenvolvimento mobile</h2>
+                    <p class="written">By <span class="author">Fabio Tetsuo</span></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum repellendus laboriosam
+                    est delectus illum obcaecati perspiciatis!
+                    </p>
+                    <p class="posts-date">22 agosto 2022</p>
+                </div>
+
+                <div class="cards">
+                    <img src="assets/img/tripe.jpg" alt="video de uma pessoa preparando para começar a gravar">
+                    <h3>saude</h3>
+                    <h2>Balancear a vida profissional e pessoal</h2>
+                    <p class="written">By <span class="author">Ridho Satriawan</span></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum repellendus laboriosam
+                    est delectus illum obcaecati perspiciatis! Cupiditate consequuntur reiciendis porro nulla, 
+                    nostrum cum expedita non ad omnis soluta eaque?
+                    </p>
+                    <p class="posts-date">22 agosto 2022</p>
+                </div>
+
+                <div class="cards">
+                    <img src="assets/img/vscode.jpg" alt="imagem de uma notebook aberto na IDE vscode">
+                    <h3>desenvolvimento</h3>
+                    <h2>Configurando VSCode</h2>
+                    <p class="written">By <span class="author">Fabio Tetsuo</span></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum repellendus laboriosam
+                    est delectus illum obcaecati perspiciatis! Cupiditate.
+                    </p>
+                    <p class="posts-date">22 agosto 2022</p>
+                </div>
+
+                <div class="cards">
+                    <img src="assets/img/monitor.jpg" alt="pessoa usando 5 monitores">
+                    <h3>produtividade</h3>
+                    <h2>2 monitores ou 1 ultrawide</h2>
+                    <p class="written">By <span class="author">Fulano da Silva</span></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum repellendus laboriosam
+                    est delectus illum obcaecati perspiciatis! Cupiditate consequuntur reiciendis porro nulla.
+                    <p class="posts-date">22 agosto 2022</p>
+                </div>
+            </div>           
         </section>
         
+        
+
         <section id="popular-posts">
-            <div class="popular-posts"></div>
-            <div class="popular-posts"></div>
-            <div class="popular-posts"></div>
+            <div class="topic">
+            <p>Posts populares</p>
+            </div>
+
+            <div class="popular-posts">
+                <img src="assets/img/mulher pc.jpg" alt="mulher usando um pc">
+                <div class="popular-text">
+                    <h3>Desenvolvimento atual</h3>
+                    <p class="posts-date"> 22 agosto 2022</p>
+                </div>
+            </div>
+
+            <div class="popular-posts">
+                <img src="assets/img/git.jpg" alt="imagens do site gitlab">
+                <div class="popular-text">
+                    <h3>GitLab vs GitHub</h3>
+                    <p class="posts-date"> 22 agosto 2022</p>
+                </div> 
+            </div>
+            <div class="popular-posts">
+                <img src="assets/img/cafe.jpg" alt="foto de uma computador com um cafe">
+                <div class="popular-text">
+                    <h3>Café atrapalha?</h3>
+                    <p class="posts-date"> 22 agosto 2022</p>
+                </div>
+            </div>
+
         </section>
-        <section id="categories"></section>
+
+        <section id="categories">
+            <div class="topic">
+                <p>Kategori</p>
+            </div>
+            <div id="category">
+                <p>>Saude <span>(1)</span> </p>
+                <p>>Desenvolvimento <span>(2)</span> </p>
+                <p>>Produtividade <span>(1)</span></p>
+            </div>
+        </section>
     </main>
-    <footer>Copyright@The Dev News</footer>
+    <footer class="container topic">Copyright@The Dev News</footer>
 </body>
 </html>

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 :root{
@@ -10,10 +11,10 @@
     --title: 800 1.25rem/1.5 var(--ff-ss);
     --text: 400 0.875rem/1.5 var(--ff-ss);
     --credits: 300 0.875rem/1.5 var(--ff-ss);
-    --topic: 400 0.875rem/1.5 var(--ff-ss);
+    --category: 400 0.875rem/1.5 var(--ff-ss);
     --title-popular: 800 .875rem/1.5 var(--ff-ss);
     --post-date: 300 0.75rem/1.5 var(ff-ss);
-    --category-topic: 600 1rem/1.5 var(--ff-ss);
+    --category-nav: 600 1rem/1.5 var(--ff-ss);
     
     /* cores */
     --primary-color: #02A28F;
@@ -21,13 +22,18 @@
 }
 
 body{
+    background-color: #d9d9d9;
     font: inherit;
     color: inherit;
     a{
         text-decoration: none;
         color: inherit;
     }
-    img{
-        max-width: 100%;
+    .author{
+        font: 400 1rem/1 var(--ff-ss);
     }
+}
+
+.container{
+    padding-inline: .5rem;
 }
